@@ -1,0 +1,10 @@
+.signin {
+  height: 300px;
+margin-top: 120px;
+padding: 100px 0 150px;
+background-image: url("../images/reserve_store_bg.png");
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+}
