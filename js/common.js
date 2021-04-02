@@ -1,8 +1,3 @@
-'use strict'
-
-/**
- * 검색창 제어
- */
 // 검색창 요소(.search) 찾기.
 const searchEl = document.querySelector('.search');
 const searchInputEl = searchEl.querySelector('input');
@@ -21,9 +16,6 @@ searchInputEl.addEventListener('blur', function () {
     searchInputEl.setAttribute('placeholder', '');
 });
 
-
-/**
- * 올해가 몇 년도인지 계산
- */
- const thisYear = document.querySelector('.this-year');
- thisYear.textContent = new Date().getFullYear();
+// 올해가 몇 년도인지 계산
+const thisYear = document.querySelector('.this-year');
+thisYear.textContent = new Date().getFullYear();
